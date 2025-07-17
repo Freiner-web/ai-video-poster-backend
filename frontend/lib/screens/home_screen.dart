@@ -56,9 +56,35 @@ class HomeScreen extends StatelessWidget {
                 runSpacing: 10,
                 children: [
                   ElevatedButton.icon(
-                    onPressed: () {},
+                    onPressed: () async {
+                      // Pick a video file
+                      // FilePickerResult? result = await FilePicker.platform.pickFiles(
+                      //   type: FileType.video,
+                      // );
+
+                      // if (result != null) {
+                      //   PlatformFile file = result.files.first;
+                      //   print(file.name);
+                      //   print(file.bytes);
+                      //   print(file.size);
+                      //   print(file.extension);
+                      //   print(file.path);
+
+                      //   // Upload the video to YouTube
+                      //   var response = await ApiService.uploadToYouTube(
+                      //     file.path!,
+                      //     'My Awesome AI-Generated Video',
+                      //     'This video was created using AI!',
+                      //     'ai,automation,cool',
+                      //   );
+
+                      //   print(response);
+                      // } else {
+                      //   // User canceled the picker
+                      // }
+                    },
                     icon: const Icon(Icons.upload),
-                    label: const Text('Upload Video'),
+                    label: const Text('Upload to YouTube'),
                   ),
                   ElevatedButton.icon(
                     onPressed: () {},

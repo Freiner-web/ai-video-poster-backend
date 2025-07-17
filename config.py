@@ -7,5 +7,5 @@ RUNWAY_API_KEY = "YOUR_RUNWAY_API_KEY"
 
 # We'll also add placeholders for the YouTube and TikTok API keys,
 # which we'll need later.
-YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"
+YOUTUBE_API_KEY = "AIzaSyDn-qW-uLvxVF6WKeeNBycuboAtCTTMHns"
 TIKTOK_API_KEY = "YOUR_TIKTOK_API_KEY"
